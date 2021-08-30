@@ -51,7 +51,7 @@ function playRound(e){
     else if(personChoice == "scissors" && computerChoice == "paper"){
         result.textContent = 'You win, scissors beat paper';
     }
-    //else return you lose//
+    
     else{
         result.textContent = `You lose! ${computerChoice} beats ${personChoice}`;
     }
